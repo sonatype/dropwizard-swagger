@@ -29,4 +29,5 @@
 prWorkflow {
     gitHubRepoPath = 'sonatype/dropwizard-swagger'
     sonarScan=false
+    jdk='OpenJDK 11.0.0'
 }
