@@ -27,5 +27,5 @@
  */
 stagingWorkflow {
   gitHubRepoPath = 'sonatype/dropwizard-swagger'
-  channelToNotify = 'slack-tests'
+    channelToNotify = 'data-identity'
 }
