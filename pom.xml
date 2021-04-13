@@ -127,6 +127,14 @@
                 <groupId>com.mycila</groupId>
                 <artifactId>license-maven-plugin</artifactId>
                 <configuration>
+                    <licenseSets>
+                        <licenseSet>
+                            <header>com/mycila/maven/plugin/license/templates/APACHE-2.txt</header>
+                            <excludes>
+                                <exclude>**</exclude>
+                            </excludes>
+                        </licenseSet>
+                    </licenseSets>
                     <properties>
                         <owner>Federico Recio</owner>
                         <email>N/A</email>
