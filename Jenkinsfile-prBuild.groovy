@@ -18,5 +18,6 @@
  * https://jenkins.io/doc/book/pipeline/shared-libraries/#defining-a-more-structured-dsl
  */
 prWorkflow {
-  gitHubRepoPath = 'sonatype/dropwizard-swagger'
+    gitHubRepoPath = 'sonatype/dropwizard-swagger'
+    sonarScan=false
 }
