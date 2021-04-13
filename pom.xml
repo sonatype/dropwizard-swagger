@@ -32,12 +32,6 @@
     <description>A simple way to document your REST APIs in DropWizard using Swagger</description>
     <url>https://github.com/smoketurner/dropwizard-swagger/</url>
 
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-        <maven.compiler.release>11</maven.compiler.release>
-    </properties>
-
     <developers>
         <developer>
             <name>Federico Recio</name>
